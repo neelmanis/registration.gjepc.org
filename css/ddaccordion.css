@@ -1,0 +1,101 @@
+
+
+.faq_holder {width:650px; height:auto; background:#fff; margin: 0px auto 15px; padding:0px; border: 1px solid #ccc;}
+
+.menuheader{ /*CSS class for menu headers in general (expanding or not!)*/
+margin: 0px; 
+padding: 10px 25px 10px 10px;
+cursor: pointer;
+font-weight: bold;
+font-size:13px;
+background: url(../images/plus.png) no-repeat 630px 12px;
+}
+
+.openheader {font-weight:bold; background: url(../images/minus.png) no-repeat 630px 12px #f5f1ff;}
+
+.categoryitems {padding: 0px 15px 10px 30px; margin: 0px 0px 0px 0px; color:#323232; background: url(../images/a.png) no-repeat 10px 2px #f5f1ff;}
+
+.categoryitems p {padding: 0px !important; margin: 0px 0px 10px 0px !important;}
+
+.categoryitems ul {margin:0px;}
+
+.categoryitems ul li {margin-left:0px;}
+
+.categoryitems table {width: inherit;}
+
+
+/*  XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX  */
+
+
+.menuheader2{ /*CSS class for menu headers in general (expanding or not!)*/
+margin: 0px 20px 10px; 
+padding: 10px 15px;
+cursor: pointer;
+font-weight: normal;
+background: #eee url(../images/plus_minus.png) no-repeat right top;
+font-size:14px;
+font-weight:bold;
+color: #000;
+}
+
+.menuheader3{ /*CSS class for menu headers in general (expanding or not!)*/
+margin: 0px 20px 5px; 
+padding: 10px 15px;
+cursor: pointer;
+font-weight: normal;
+background: #eee url(../images/plus_minus1.png) no-repeat right top;
+font-size:12px;
+font-weight:normal;
+color: #000;
+}
+
+
+
+.menuheader2:hover, .menuheader3:hover {font-weight:bold; color:#000; background: #ccc url(../images/plus_minus.png) no-repeat right top;}
+
+.openheader2, .openheader2:hover{font-weight:bold; color:#fff;
+background: rgb(46,46,46) url(../images/plus_minus.png) no-repeat right bottom; /* Old browsers */
+background: -moz-linear-gradient(top, rgba(46,46,46,1) 0%, rgba(75,75,75,1) 100%) url(../images/plus_minus.png) no-repeat right bottom; /* FF3.6+ */
+background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(46,46,46,1)), color-stop(100%,rgba(75,75,75,1))) url(../images/plus_minus.png) no-repeat right bottom; /* Chrome,Safari4+ */
+background: -webkit-linear-gradient(top, rgba(46,46,46,1) 0%,rgba(75,75,75,1) 100%) url(../images/plus_minus.png) no-repeat right bottom; /* Chrome10+,Safari5.1+ */
+background: -o-linear-gradient(top, rgba(46,46,46,1) 0%,rgba(75,75,75,1) 100%) url(../images/plus_minus.png) no-repeat right bottom; /* Opera 11.10+ */
+background: -ms-linear-gradient(top, rgba(46,46,46,1) 0%,rgba(75,75,75,1) 100%) url(../images/plus_minus.png) no-repeat right bottom; /* IE10+ */
+background: linear-gradient(to bottom, rgba(46,46,46,1) 0%,rgba(75,75,75,1) 100%) url(../images/plus_minus.png) no-repeat right bottom; /* W3C */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#2e2e2e', endColorstr='#4b4b4b',GradientType=0 ) url(../images/plus_minus.png) no-repeat right bottom; /* IE6-9 */
+}
+
+.categoryitems2 {padding: 0px 0px 10px 0px; color:#323232;}
+
+
+
+/* XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX */
+
+
+.menuheader_nr { /*CSS class for menu headers in general (expanding or not!)*/
+margin: 0px; 
+padding: 15px;
+cursor: pointer;
+background: #f8f8f8;
+font-weight:bold;
+display:block;
+min-height:50px;
+}
+
+.menuheader_nr:hover {font-weight:bold; background:#f5f1ff;}
+
+.openheader_nr {font-weight:bold; background:#f5f1ff;}
+
+.categoryitems_nr {background: #f5f1ff; padding: 0px; color:#323232;}
+
+
+
+.borderNew{
+	border:1px solid #f1f1f1;
+	margin-bottom:20px;
+	width:645px;
+	margin-left:20px;
+	}
+
+
+
+

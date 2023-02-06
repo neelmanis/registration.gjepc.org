@@ -1,0 +1,18 @@
+/*default CSS for SAG scroller*/
+
+
+
+.sagscroller_news {width: 100%; height:120px; margin: 0px auto; overflow:hidden; position:relative;}
+
+.sagscroller_news ul {position:absolute; margin:0px; padding:0px; list-style:none; width: 100%;}
+
+.sagscroller_news ul li {display:block; margin-bottom:20px; padding-left:13px; background: url(../images/bullet.png) no-repeat 0px 5px;}
+
+.sagscroller_news ul li .date {font-size:12px; font-family:Arial, Helvetica, sans-serif; display:block; margin-bottom:3px;}
+
+.sagscroller_news ul li .news {font-size:14px;}
+
+.sagscroller_news ul li .news a {display:block; text-transform:capitalize;}
+
+.sagscroller_news ul li .news a:hover {color:#ea0101; display:block;}
+

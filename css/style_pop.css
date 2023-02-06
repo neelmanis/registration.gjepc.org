@@ -1,0 +1,11 @@
+.tbox {position:absolute; display:none; padding:14px 17px; z-index:99999999999999;}
+.tinner {padding:15px; background:#fff url(../images/preloader.gif) no-repeat 50% 50%; border:6px solid #88888888888888;}
+.tmask {position:absolute; display:none; top:0px; left:0px; height:100%; width:100%; background:#000; z-index:88888888888888}
+.tclose {position:absolute; top:0px; right:0px; width:30px; height:30px; cursor:pointer; background: url(../images/close.png) no-repeat;}
+
+#error { color:#fff; border:5px solid #000; padding:0}
+#error .tcontent {padding:10px 14px 11px;}
+#success { color:#fff; padding:10;}
+#bluemask {background:#000;}
+#frameless {padding:0}
+#frameless .tclose {right:6px}

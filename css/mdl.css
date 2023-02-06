@@ -1,0 +1,52 @@
+  .demo-card-square.mdl-card {
+    width: 30%;
+    padding: 0px;
+    height: 320px;
+    float: left;
+    margin: 1rem;
+    position: relative;
+  }
+  
+  .demo-card-square.mdl-card:hover {
+    box-shadow: 0 8px 10px 1px rgba(0, 0, 0, .14), 0 3px 14px 2px rgba(0, 0, 0, .12), 0 5px 5px -3px rgba(0, 0, 0, .2);
+  }
+
+  .mdl-card__supporting-text table{text-align: center;}
+  
+/*  .demo-card-square > .mdl-card__title {
+    color: #fff;
+    background: #03a9f4;
+  }
+  
+  .demo-card-square > .mdl-card__accent {
+    background: #ff9800;
+  }*/
+
+  .one{
+    background: #4E9BD0;
+  }
+
+  .two{
+    background: #558352;
+  }
+
+  .three{
+    background: #8873BD;
+  }
+
+  .four{
+    background: #D1A0CD;
+  }
+
+  .five{
+    background: #9E9E9E;
+  }
+
+  .mdl-card__title-text{
+    font-size: 20px;
+  }
+  
+/*  body {
+    background: #fafafa;
+    position: relative;
+  }*/

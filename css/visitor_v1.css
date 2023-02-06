@@ -1,0 +1,155 @@
+.submitbtn {
+background: #e2e2e2;
+border: none;
+padding: 7px 15px;
+margin-top: 15px;
+cursor: pointer;
+}
+.textField{width: 100%!important;padding: 3px; height: 40px}
+.inputField{width: 97%!important;padding: 3px; height: 30px;border:1px solid #ccc;}
+#form .textField2{width: 215px;padding: 3px;}
+#form .field {
+background: #f6f6f6;
+padding: 10px 20px 3px 20px;
+margin-bottom: 10px;
+float: left;
+}
+.button2 {
+margin: 20px 10px 20px 0px;
+background: #751c54;
+padding: 7px 12px;
+font-size: 12px;
+margin-left: 13px;
+border-radius: 5px;
+color: #fff;}
+.button1 {
+float: left;
+margin: 20px 10px 20px 0px;
+background: #751c54;
+padding: 5px 15px;
+border-radius: 15px;
+color: #fff;}
+.duo{width: 100%!important}
+.btn{padding: 10px 15px; border-radius: 20px;color:#fff; font-size: 15px;background: #751c54;transition: 1s all; border:0;cursor: pointer;}
+.btn:hover{ background: #000;color:#fff;}
+.btn_link{width: 45%; display: inline-block;text-align: center;margin-top: 10px}
+.ml-10{margin-left: 10px!important}
+.fstChoiceItem {
+  display: block;
+    width: 86%;
+    /* margin-bottom: 5px; */
+    font-size: 14px;
+    margin: 5px;
+}
+
+.fstResultItem{font-size: 14px}
+.fstMultipleMode .fstControls{padding: 0}
+select{padding: 5px 0px; }
+.error{color: red;display: block;font-size: 13px}
+#form label {
+min-width: 120px;
+display: block;
+float: left;
+/* font-weight: bold; */
+font-size: 11px;
+vertical-align: middle;
+padding-top: 2px;
+color: #751c54;
+}
+table {
+/*  border: 1px solid #ccc;
+*/  border-collapse: separate;
+margin: 0;
+padding: 0;
+width: 100%;
+table-layout: fixed;
+}
+table caption {
+font-size: 1.5em;
+margin: .5em 0 .75em;
+text-align: left;
+text-transform: uppercase;
+color: #000;
+}
+table tr {
+background: #f8f8f8;
+border: 1px solid #ddd;
+padding: .35em;
+}
+table th,
+table td {
+padding: .625em;
+text-align: left;
+}
+table th {
+font-size: .85em;
+letter-spacing: .1em;
+text-transform: uppercase;
+color: #000;
+background: #ccc;
+}
+@media screen and (max-width: 600px) {
+	.btn_link{width: 40%;}
+table {
+border: 0;
+}
+table caption {
+font-size: 1.3em;
+}
+table thead {
+border: none;
+clip: rect(0 0 0 0);
+height: 1px;
+margin: -1px;
+overflow: hidden;
+padding: 0;
+position: absolute;
+width: 1px;
+}
+table tr {
+border-bottom: 3px solid #ddd;
+display: block;
+margin-bottom: .625em;
+}
+table td {
+border-bottom: 1px solid #ddd;
+display: block;
+font-size: .8em;
+text-align: right;
+}
+table td:before {
+/*
+* aria-label has no advantage, it won't be read inside a table
+content: attr(aria-label);
+*/
+content: attr(data-label);
+float: left;
+font-weight: bold;
+text-transform: uppercase;
+}
+table td:last-child {
+border-bottom: 0;
+}
+}
+.margin_t{margin-top:30px;}
+.duo h4{display:inline; padding:3px!important; margin-right:10px; }
+.emp_img{width: 75px;}
+
+select {background:#fff;}
+#participation_fee {background:#fff;}
+#formContainer .title {width: auto;
+    padding-right: 12px;
+    }
+#formContainer {padding-bottom:20px;}
+	.loader {
+    position: fixed;
+    left: 0px;
+    top: 0px;
+    width: 100%;
+    height: 100%;
+    z-index: 9999;
+    background: url('../images/progress.gif') 50% 50% no-repeat rgb(249,249,249);
+    opacity: 80;
+	}
+	.body_text{height: 95px;margin-top: 20px;}
+	ol li{list-style: disc;}

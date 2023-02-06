@@ -1,0 +1,88 @@
+.list_carousel {
+		
+		margin: 0px auto;
+/*		width: 450px;*/
+	width:80%;
+		height: 124px;
+		position:relative;
+	}
+	.list_carousel ul {
+		margin: 0;
+		padding: 0;
+/*		width:450px;*/
+	width:80%;
+		height:124px;
+		list-style: none;
+		display: block;
+	}
+	.list_carousel ul li {
+		text-align: center;
+		background-image: none !important;
+		background-color: none;
+		padding: 0px;
+		margin:0px;
+		display: inline-block;
+		float: left;
+		width: 150px;
+	}
+	.list_carousel ul li img{
+		width:120px; height:120px; border:0px; border: 2px solid #999;
+	}
+	.list_carousel.responsive {
+		width: auto;
+		margin-left: 0;
+	}
+	.clearfix {
+		float: none;
+		clear: both;
+	}
+.list_carousel	.prev_1, .list_carousel .next_1 {
+/*		float: left;*/
+		/*margin-left: 10px;*/
+		position:absolute;		
+		width:12px;
+		height:31px;		
+		top:50%;
+		margin-top:-15px;
+		z-index:9999;
+		cursor:pointer;
+	}
+
+
+.list_carousel	.prev_1 {
+left:-20px;
+background:url(../images/next_prev_btn.png) no-repeat left top;
+	}
+	
+.list_carousel	.prev_1:hover {
+left:-20px;
+background:url(../images/next_prev_btn.png) no-repeat left bottom;
+	}	
+
+.list_carousel	.next_1 {
+right:-20px;
+background:url(../images/next_prev_btn.png) no-repeat right top;
+	}
+
+.list_carousel	.next_1:hover {
+right:-20px;
+background:url(../images/next_prev_btn.png) no-repeat right bottom;
+	}
+	
+	.pager {
+		float: left;
+		width: 300px;
+		text-align: center;
+	}
+	.pager a {
+		margin: 0 5px;
+		text-decoration: none;
+	}
+	.pager a.selected {
+		text-decoration: underline;
+	}
+	.timer {
+		background-color: #999;
+		height: 6px;
+		width: 0px;
+	}

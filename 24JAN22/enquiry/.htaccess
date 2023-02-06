@@ -1,0 +1,21 @@
+Options -Indexes
+RewriteEngine on
+RewriteCond %{HTTPS} off
+RewriteRule ^index.php$ https://iigj.org/ [R=301,L]
+RewriteCond %{HTTP_HOST} ^www.iigj.org [NC]
+RewriteRule ^(.*)$ https://iigj.org/$1 [L,R=301]
+
+Redirect /iigj_profile.php /our-profile.php
+Redirect /our_parentage.php /our-parentage.php
+Redirect /management_committee.php /management-committee.php
+Redirect /mission_vision.php /mission-vision.php
+Redirect /graduate_programmes.php /graduate-programmes.php
+Redirect /post_graduate_programmes.php /post-graduate-programmes.php
+Redirect /skill_devlopment_courses_andheri.php /skill-devlopment-courses-andheri.php
+Redirect /skill_devlopment_courses_tardeo.php /skill-devlopment-courses-tardeo.php
+Redirect /pmati_courses.php /pmati-courses.php
+Redirect /contact_us.php /contact-us.php
+Redirect /facilities_and_infrastructure.php /facilities-and-infrastructure.php
+Redirect /iigj_news.php /our-news.php
+Redirect /press_release.php /press-release.php
+

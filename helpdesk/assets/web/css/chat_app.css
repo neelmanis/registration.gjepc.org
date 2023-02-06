@@ -1,0 +1,243 @@
+.mainChatBox{
+	border: 1px solid #707070;
+	overflow: hidden;
+	position: relative;
+}
+
+.mainChatBox ul{
+	margin: 0;
+	padding: 0;
+	list-style-type: none;
+}
+
+.mainChatBox ul li{
+	padding: 14px 0px;
+	border-bottom: 1px solid #acacac;
+	cursor: pointer;
+}
+
+.mainChatBox ul li.active{
+	background: #f1f1f1;
+}
+
+.mainChatBox ul li:last-child{
+	border-bottom: none;
+}
+
+.proPic{
+	font-size: 14px;
+}
+
+.proPic img, .chatHeader img{
+	vertical-align: middle;
+	margin-right: 10px;
+	width: 45px;
+	height: 45px;
+	object-fit: cover;
+}
+
+.chatHeader img{
+	width: 60px;
+	height: 60px;
+	margin-right: 15px;
+}
+
+.chatHeader .fa{
+	font-size: 1.5rem;
+	vertical-align: middle;
+	display: none;
+}
+
+.mainChatBox .time{
+	font-size: 13px;
+	color: #666666;
+	font-weight: 400;
+}
+
+.chatHeader{
+	background: #96c804;
+	padding: 7px 15px;
+	color: #fff;
+}
+
+.proList{
+	border-right: 1px solid #acacac;
+	max-height: 650px;
+    overflow: auto;
+}
+
+.proList span{
+	display: inline-block;
+	vertical-align: middle;
+	max-width: 80px;
+}
+
+.anotherMsg{
+	padding-right: 70px;
+}
+
+.myMsg{
+	padding-left: 70px;
+}
+.chatWindow {
+	height: 445px;
+	overflow: auto;
+}
+.anotherMsg p, .myMsg p{
+	border-radius: 5px;
+	font-weight: 400;
+	font-size: 14px;
+	padding: 15px;
+	position: relative;
+	display: table;
+}
+.anotherMsg p{
+	background: #e8e8e8;
+	margin-right: auto;
+}
+.myMsg p{
+	background: #e3edc6;
+	margin-left: auto;
+}
+.anotherMsg p::before, .myMsg p::after{
+	content: '';
+	display: block;
+	position: absolute;
+	top: 0px;
+	
+	width: 0;
+	height: 0;
+	border-top: 0px solid transparent;
+	
+	border-bottom: 16px solid transparent;
+}
+
+.anotherMsg p::before{
+	left: -17px;
+	border-right: 20px solid #e8e8e8;
+}
+
+.myMsg p::after{
+	right: -17px;
+	border-left: 20px solid #e3edc6;
+}
+
+.anotherMsg p span, .myMsg p span{
+	font-size: 13px;
+	position: absolute;
+	top: 50%;
+	-webkit-transform: translateY(-50%);
+	transform: translateY(-50%);
+	color: #666666;
+}
+
+.anotherMsg p span{
+	right: -80px;
+}
+
+.myMsg p span{
+	left: -80px;
+}
+
+.replyWindow{
+	border-top: 1px solid #ccc;
+}
+
+.msgText input[type="text"]{
+	border: 1px solid #adadad;
+	width: 100%;
+	height: 50px;
+	border-radius: 30px;
+	padding: 0px 90px 0px 20px;
+}
+
+.msgText .sendBtn{
+	background: #96c804;
+	color: #fff;
+	border: none;
+	padding: 5px 20px;
+	border-radius: 20px;
+	position: absolute;
+    right: 8px;
+    top: 8px;
+}
+
+.msgText .sendBtn:hover{
+	background: #555656;
+}
+.msgText .sendBtn:focus{
+	border: none;
+	outline: none;
+}
+
+.proChat{
+	background: #fff;
+}
+
+/* width */
+::-webkit-scrollbar {
+  width: 5px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #f1f1f1; 
+}
+ 
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #cccccc; 
+}
+
+.proChat ::-webkit-scrollbar-thumb {
+  background: #96c804; 
+}
+
+
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #ccc; 
+}
+
+@media(min-width: 768px){
+	.msgHead{
+		margin: 0px -15px;
+	}
+}
+
+
+@media(max-width: 767px){
+	.proChat{
+		position: absolute;
+		height: 100%;
+		right: -100%;
+		top: 0px;
+		z-index: 99;
+		-webkit-transition: all 0.2s ease-in-out;
+		transition: all 0.2s ease-in-out;
+	}
+
+	.chatHeader .fa{
+		display: inline-block;
+		padding: 0px 10px;
+	}
+}
+
+@media(max-width: 576px){
+	.anotherMsg {
+    padding-right: 50px;
+	}
+
+	.anotherMsg p span {
+    right: -63px;
+	}
+
+	.myMsg {
+    padding-left: 50px;
+	}
+
+	.myMsg p span {
+    left: -63px;
+	}
+}

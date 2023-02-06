@@ -1,0 +1,403 @@
+               .d-flex{display: flex;}
+                .flex-column{flex-direction: column;}
+                .flex-row{flex-direction: row}
+                .col-50{width: 50%}
+                .col-30{width: 30%}
+                .justify-around{justify-content: space-around;}
+                .flex-wrap{flex-wrap: wrap;}
+/*                .form-control{width: 100%; border:1px solid#ccc; height: 35px;font-size: 13px;  transition: all 0.4s;}
+*/                
+				.form-control {height:40px; border:1px solid #ccc; color:#6c757d; transition:all 0.3s ease-in-out; -webkit-transition:all 0.3s ease-in-out; -moz-transition:all 0.3s ease-in-out; -o-transition:all 0.3s ease-in-out; border-radius:0; font-size:13px;}
+.form-control:focus {border:1px solid #999; color:#000; box-shadow:none; outline:none; transition:all 0.3s ease-in-out; -webkit-transition:all 0.3s ease-in-out; -moz-transition:all 0.3s ease-in-out; -o-transition:all 0.3s ease-in-out;}
+				
+				
+                label{font-size: 14px}
+                .f15{font-size: 15px}
+                /*.form-group{padding: 0 10px;    margin: 10px 0;}*/
+                .align-center{align-items: center;}
+                .align-baseline{align-items: baseline;}
+                .justify-space-between{justify-content: space-between;}
+                input[type="radio" i] {margin: 0 15px 0 0 }
+                input[type="checkbox" i] {
+                    margin: 0 15px 0 0;
+                }
+                .btn{padding: 7px 15px; text-align: center;margin-right: 15px;outline: none;border-radius: 3px;border:none;cursor: pointer;}
+                .btn-reset{background: #ccc;color:#000}
+                .btn-submit{background: #000;color: #fff; font-size:14px;}
+				
+				 .btn-submit:hover{background: #a59459;color: #fff}
+				
+                .captchaText{width: 93%;height:25px; background:url("../images/captcha-background-image-3.jpg");  border:none;padding: 5px 7px;text-align: center;font-size: 25px;color: #000}
+                .img-captcha{margin-right: 15px;}
+                /* The container */
+                .container_check {
+                  display: block;
+                  position: relative;
+                  padding-left: 25px;
+                  cursor: pointer;
+				  width:38%;
+                  font-size: 13px;
+                  -webkit-user-select: none;
+                  -moz-user-select: none;
+                  -ms-user-select: none;
+                  user-select: none;
+              }
+
+              /* Hide the browser's default checkbox */
+              .container_check input {
+                  position: absolute;
+                  opacity: 0;
+                  cursor: pointer;
+                  height: 0;
+                  width: 0;
+              }
+
+              /* Create a custom checkbox */
+              .checkmark {
+                  position: absolute;
+                  top: 0;
+                  left: 0;
+                  height: 15px;
+                  width: 15px;
+                  background-color: #eee;
+                  border: 1px solid#ccc;
+              }
+
+              /* On mouse-over, add a grey background color */
+              .container_check:hover input ~ .checkmark {
+                  background-color: #ccc;
+              }
+
+              /* When the checkbox is checked, add a blue background */
+              .container_check input:checked ~ .checkmark {
+                  background-color: #a59c5b;
+                  border: 1px solid #a59c5b;
+              }
+
+              /* Create the checkmark/indicator (hidden when not checked) */
+              .checkmark:after {
+                  content: "";
+                  position: absolute;
+                  display: none;
+              }
+
+              /* Show the checkmark when checked */
+              .container_check input:checked ~ .checkmark:after {
+                  display: block;
+              }
+
+              /* Style the checkmark/indicator */
+              .container_check .checkmark:after {
+                  left: 3px;
+                  top: 0;
+                  width: 5px;
+                  height: 10px;
+                  border: solid white;
+                  border-width: 0 2px 2px 0;
+                  -webkit-transform: rotate(45deg);
+                  -ms-transform: rotate(45deg);
+                  transform: rotate(45deg);
+              }
+              /* The container */
+              .container_radio {
+                  display: block;
+                  position: relative;
+                  padding-left: 25px;
+                  margin-bottom: 12px;
+                  cursor: pointer;
+                  font-size: 13px;
+                  -webkit-user-select: none;
+                  -moz-user-select: none;
+                  -ms-user-select: none;
+                  user-select: none;
+				  
+              }
+
+              /* Hide the browser's default radio button */
+              .container_radio input {
+                  position: absolute;
+                  opacity: 0;
+                  cursor: pointer;
+              }
+
+              /* Create a custom radio button */
+              .checkmark_radio {
+                  position: absolute;
+                  top: 0;
+                  left: 0;
+                  height: 15px;
+                  width:15px;
+                  background-color: #eee;
+                  border-radius: 50%;
+                  border: 1px solid#ccc;
+              }
+
+              /* On mouse-over, add a grey background color */
+              .container_radio:hover input ~ .checkmark_radio {
+                  background-color: #ccc;
+              }
+
+              /* When the radio button is checked, add a blue background */
+              .container_radio input:checked ~ .checkmark_radio {
+                  background-color: #a59c5b;
+                  border: 1px solid #a59c5b;
+              }
+
+              /* Create the indicator (the dot/circle - hidden when not checked) */
+              .checkmark_radio:after {
+                  content: "";
+                  position: absolute;
+                  display: none;
+              }
+
+              /* Show the indicator (dot/circle) when checked */
+              .container_radio input:checked ~ .checkmark_radio:after {
+                  display: block;
+              }
+
+              /* Style the indicator (dot/circle) */
+              .container_radio .checkmark_radio:after {
+                top: 4px;
+                left: 4px;
+                width: 5px;
+                height: 5px;
+                border-radius: 50%;
+                background: white;
+            }
+            .check_text{display: inline-block;}
+            .select-control{width: 100%;
+    border: 1px solid#ccc;
+    height: 34px;
+    padding: 5px 7px;
+    transition: all 0.4s;text-transform: uppercase;
+}
+.container_radio{    z-index: 1;}
+ .radio_center{    margin:0 19px;}
+ .justify-center{justify-content: center;}
+ .m-10{margin: 10px!important}
+ .form-tab{position: relative;}
+ .form-tab:after{content:"";position: absolute;border-bottom: 1px solid #ccc;width: 100%;top: 7px;}
+  .btn_resend{border-bottom: 1px solid #000;padding: 5px;}
+  .btn_resend:hover{color:blue;}
+  .error{color:red;}
+   #formContainer{position: relative;margin-bottom: 0;padding-bottom: 50px}
+  .loaderWrapper{position: absolute;width: auto;height: auto;top: 0;left: 0;right: 0;bottom: 0;background: #ffffffb3;display: none; z-index: 10}
+  .formLoader{width: 150px;margin-left: 50%;margin-top:50px;transform: translate(-50%);}
+  .formLoader img{width: 100%}
+  .formLoader p{text-align: center;}
+  .col-100{width: 100%}
+  .success{font-size: 15px;color: green!important;}
+  .fail{font-size: 15px;color: red!important;}
+  #sendOTP{display: none;}
+  #verifyOTP{display: none;}
+   .pan_no{text-transform: uppercase;}
+   .justify-flex-end{justify-content: flex-end;}
+   #formContainer{border: 1px solid #ccc}
+   /*#gstCopy{display: none}*/
+   #salaryCopy{display: none}
+  
+   #single_visitor_add{display: none;}
+   #ThankYou{display: none;}
+   #blah1,#blah2,#blah3,#blah4{display: none;}
+ 
+   .star{position: relative;}
+   .star:after{content: "*"; position: absolute;color: red;font-size: 16px;}
+   .justify-flex-start{justify-content: flex-start;}
+  .hungry{
+        display: table;
+    width: 100%;
+      }
+      .hungry .selection {
+ margin-bottom: 1em;
+    display: table-cell;
+   
+    text-align: center;
+}
+
+.hungry .selection label {
+  display: inline-block;
+  
+  background-color: #00000099;
+  border-radius: 6px;
+  color: #ffffff;
+padding: 20px;
+  cursor: pointer;
+}
+
+.hungry .selection label:hover {
+  background-color: #00000099;
+}
+
+.hungry .selection input[type=radio] {
+  display: none;
+}
+
+.hungry .selection input[type=radio]:checked ~ label {
+  background-color: #f1592a;
+  border:1px solid#000;
+ -webkit-box-shadow: 0px 0px 11px -2px rgba(0,0,0,1);
+-moz-box-shadow: 0px 0px 11px -2px rgba(0,0,0,1);
+box-shadow: 0px 0px 11px -2px rgba(0,0,0,1);
+}
+.btn_right{
+  text-align: right;
+  margin-top: 23px;
+    margin-right: 18px;
+}
+.btn_right .btn-submit{padding: 10px 29px}
+
+.loader {
+    position: fixed;
+    left: 0px;
+    top: 0px;
+    width: 100%;
+    height: 100%;
+    z-index: 9999;
+    background: url('https://www.gjepc.org/assets/images/logo.png') 50% 50% no-repeat rgb(255, 255, 255); 
+    opacity: 1;
+  }
+  .loader p{
+    position: fixed;
+    left: 45%;
+    top: 58%;
+    width: 100%;
+    height: 100%;
+    z-index: 9999;
+    opacity: .80; 
+  }
+  #status {
+    width: 200px;
+    height: 170px;
+    position: absolute;
+    left: 40%;
+    top: 50%;
+    margin: -22px 0 0 -22px;
+    display: none;
+}
+  #selectedShow{text-align: center; padding: 5px 7px; background: #ccc; color: #000;display: inline-block;}
+  input[type="submit"]:disabled {
+  background: #ccc;
+}
+input[type="submit"]:disabled::hover{  background: #ccc!important;}
+ .formwrapper2{display: flex;
+    justify-content: space-between;
+    flex-wrap: nowrap;
+}
+.form-notes{
+  border: 1px solid#000;
+  padding: 10px;
+  color: #fff
+}
+.w-100{width: 100%}
+@media screen and (max-width: 768px) {
+    .hungry{
+        display: block;
+  
+      }
+      .hungry .selection {
+        display: block;
+      }
+      .hungry .selection label {
+  display: block;
+
+}
+.formwrapper2{flex-wrap: wrap;}
+.col-m-100{width: 100%}
+.d-flex{flex-wrap: wrap;}
+#form .field {width: 100%!important;}
+}
+.cta{
+    background: #1a1a1a;
+    color: #fff;
+    font-size: 14px;
+    border: 1px solid #9a928447;
+    line-height: 24px;
+    padding: 5px 15px;
+  
+    transition: all .5s;
+}
+.cta:hover{
+  background: #a89c5d;
+}
+.table_responsive {
+  font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+  border-collapse: collapse;
+  width: 100%!important;
+  margin:10px 0px!important;
+}
+
+.table_responsive td, .table_responsive th {
+  border: 1px solid #ddd;
+  padding: 8px;
+  border: 1px solid#fff;
+  text-align: center;
+}
+.table_responsive td{background:#fff; border: 1px solid #ccc}
+.table_responsive tr:nth-child(even){background-color: #f2f2f2;}
+
+.table_responsive tr:hover {background-color: #ddd;}
+
+.table_responsive th {
+   border: 1px solid #ddd;
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: left;
+  background-color: #151515;
+  color: #a59459;
+}
+.blah{
+padding: 10px;
+border: 1px solid #ccc;
+width: 110px;
+height: 100px;
+border-radius: 10px;
+display: flex;
+justify-content: center;
+-webkit-box-shadow: 0px -1px 15px -4px rgba(0,0,0,0.75);
+-moz-box-shadow: 0px -1px 15px -4px rgba(0,0,0,0.75);
+box-shadow: 0px -1px 15px -4px rgba(0,0,0,0.75);
+}
+.blah img{
+max-height: 100%;
+}
+
+
+        
+.preview {
+            overflow: hidden;
+            width: 160px; 
+            height: 160px;
+            margin: 10px;
+            border: 1px solid red;
+        }
+       
+
+     
+        .overlay {
+          position: absolute;
+          bottom: 10px;
+          left: 0;
+          right: 0;
+          background-color: rgba(255, 255, 255, 0.5);
+          overflow: hidden;
+          height: 0;
+          transition: .5s ease;
+          width: 100%;
+        }
+
+        .image_area:hover .overlay {
+          height: 50%;
+          cursor: pointer;
+        }
+
+        .text {
+          color: #333;
+          font-size: 20px;
+          position: absolute;
+          top: 50%;
+          left: 50%;
+          -webkit-transform: translate(-50%, -50%);
+          -ms-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+          text-align: center;
+        }

@@ -1,0 +1,5 @@
+<?php defined('BASEPATH') OR exit('No direct script access allowed'); ?>
+
+ERROR - 2022-11-02 16:47:27 --> Severity: Warning --> unlink(/var/www/vhosts/kwebmaker.in/scanapp.kwebmaker.in/system/cache/sessions/ci_sessionf7539d0d9b0a5c4c6394a8e33bd3c69bcc98fr3mu44t2d3mc3rb0un77uja5s33): No such file or directory /var/www/vhosts/kwebmaker.in/scanapp.kwebmaker.in/system/libraries/Session/drivers/Session_files_driver.php 322
+ERROR - 2022-11-02 16:47:27 --> Severity: Warning --> session_regenerate_id(): Session object destruction failed.  ID: user (path: /var/www/vhosts/kwebmaker.in/scanapp.kwebmaker.in/system/cache/sessions) /var/www/vhosts/kwebmaker.in/scanapp.kwebmaker.in/system/libraries/Session/Session.php 718
+ERROR - 2022-11-02 16:47:27 --> Severity: Warning --> Cannot modify header information - headers already sent by (output started at /var/www/vhosts/kwebmaker.in/scanapp.kwebmaker.in/system/core/Exceptions.php:271) /var/www/vhosts/kwebmaker.in/scanapp.kwebmaker.in/system/core/Common.php 570

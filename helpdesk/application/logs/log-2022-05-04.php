@@ -1,0 +1,6 @@
+<?php defined('BASEPATH') OR exit('No direct script access allowed'); ?>
+
+ERROR - 2022-05-04 12:28:32 --> Query error: Unknown column 'modified_at' in 'field list' - Invalid query: INSERT INTO `users` (`name`, `email`, `username`, `password_text`, `password`, `is_admin`, `status`, `role`, `created_at`, `modified_at`) VALUES ('Test Account', 'test@gmail.com', 'test_01', 'password', '$2y$12$tmntSzp3z1TJSJ5maH4eJu5vg9S2BB9bDMNrhnIkGbW8e8CVIaZBy', 'N', 'active', 'superadmin', '2022-05-04 12:28:32', '2022-05-04 12:28:32')
+ERROR - 2022-05-04 12:29:42 --> Query error: Unknown column 'modified_at' in 'field list' - Invalid query: INSERT INTO `users` (`name`, `email`, `username`, `password_text`, `password`, `is_admin`, `status`, `role`, `created_at`, `modified_at`) VALUES ('TEST USER', 'test@gmail.com', 'test_01', 'password', '$2y$12$Ujc1ydw9LRoSvDUiFdYlH..j/cJOcY4t0GglQV46rlNmJDDs/xiny', 'N', 'active', 'superadmin', '2022-05-04 12:29:42', '2022-05-04 12:29:42')
+ERROR - 2022-05-04 18:56:50 --> Severity: Notice --> Undefined index: uid /var/www/vhosts/scanapp.kwebmakerdigitalagency.com/httpdocs/application/modules/generic/controllers/Generic.php 236
+ERROR - 2022-05-04 19:10:23 --> Severity: Notice --> Array to string conversion /var/www/vhosts/scanapp.kwebmakerdigitalagency.com/httpdocs/application/modules/generic/controllers/Generic.php 237

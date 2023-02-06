@@ -1,0 +1,1 @@
+<footer class="footer text-sm-center text-md-right">Developed by Kwebmaker &copy 2021</footer>
